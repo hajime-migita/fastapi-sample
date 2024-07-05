@@ -39,6 +39,7 @@ jobs:
                 tags: ghcr.io/hajime-migita/fastapi-sample:latest
                 labels: ${{ steps.meta.outputs.labels }}
     
+                
     update-kubernetes-manifest:
         runs-on: ubuntu-latest
         # 指定した job が完了するまで待つ
